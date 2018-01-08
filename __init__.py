@@ -84,7 +84,7 @@ class GimletPodcastSkill(MycroftSkill):
             self.listen_url = self.rss_urls['startup']
         elif "every little thing" in utter:
             self.listen_url = self.rss_urls['elt']
-        elif "crimetown" or "crime" in utter:
+        elif "crimetown" in utter:
             self.listen_url = self.rss_urls['crimetown']
         elif "heavyweight" in utter:
             self.listen_url = self.rss_urls['heavyweight']
